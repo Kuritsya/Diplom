@@ -10,8 +10,8 @@ public class PauseScript : MonoBehaviour
 {
     public bool PauseGame;
     public GameObject pauseGameMenu;
+    public AudioMixer audioMixer;
 
-    // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
@@ -47,12 +47,8 @@ public class PauseScript : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public AudioMixer audioMixer;
-/*    public Toggle toggle;*/
-
     public void Sound(bool enable)
     {
-        /*AudioListener.pause = !AudioListener.pause;*/
 
         if (enable)
         {
@@ -62,14 +58,5 @@ public class PauseScript : MonoBehaviour
         {
             AudioListener.volume = 0f;
         }
-
-/*        if(AudioListener.volume == 1f)
-        {
-            toggle.isOn = true;
-        }
-        else
-        {
-            toggle.isOn = false;
-        }*/
     }
 }

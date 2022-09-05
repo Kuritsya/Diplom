@@ -1748,6 +1748,7 @@ GameObject:
   - component: {fileID: 201104864}
   - component: {fileID: 201104865}
   - component: {fileID: 201104866}
+  - component: {fileID: 201104867}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2056,6 +2057,18 @@ MonoBehaviour:
   windowError: {fileID: 1653581721}
   windowEmpty: {fileID: 1788536193}
   canvas: {fileID: 1101738508}
+--- !u!114 &201104867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201104853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36be34461a63b4b419154b630ce4e704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &215748655
 GameObject:
   m_ObjectHideFlags: 0
@@ -6874,6 +6887,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1101738508}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &738593156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11127,6 +11152,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1101738508}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1388399228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11560,6 +11597,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 201104867}
+        m_TargetAssemblyTypeName: ButtonsClick, Assembly-CSharp
+        m_MethodName: NextLvlClick
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
